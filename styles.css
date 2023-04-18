@@ -1,21 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color:#000000;
     color: #f2eff5;
 }
 
-strong {
+.titulo-destaque{
     color: #22D4FD;
 }
 
-h1 {
-    font-weight: bold;
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-span {
-    color: #22D4FD;
-    padding: 10px;
+.apresentacao__conteudo{
+    width: 615px;
+    }
+
+.apresentacao__conteudo__titilo{
+    font-size: 36px;
 }
 
-img{
-    src="Paulo.jpg" alt="Image" height="10" width="10">
-} 
+.apresentacao__conteudo__texto{
+    font-size: 20px;
+}
