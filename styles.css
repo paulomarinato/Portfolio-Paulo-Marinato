@@ -4,7 +4,18 @@ body{
 }
 
 strong {
-    color: #22d4fd;
+    color: #22D4FD;
 }
 
+h1 {
+    font-weight: bold;
+}
 
+span {
+    color: #22D4FD;
+    padding: 10px;
+}
+
+img{
+    src="Paulo.jpg" alt="Image" height="10" width="10">
+} 
