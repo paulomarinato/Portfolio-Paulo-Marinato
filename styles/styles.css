@@ -27,7 +27,7 @@ body{
 }
 .cabecalho__menu__link{
     font-family: var(--font-secund);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-emphasis);
     text-decoration: none;
@@ -109,5 +109,9 @@ body{
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }   
+    .apresentacao__conteudo{
+        width: auto;
     }
 }
