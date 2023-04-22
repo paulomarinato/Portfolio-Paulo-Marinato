@@ -13,14 +13,10 @@
     margin: 0;
     padding: 0;
 }
-body{
-    /* height: 100vh; */
+body{    
     box-sizing: border-box;
     background-color: var(--color-background);
     color: var(--color-text);
-}
-.titulo-destaque{
-    color: var(--color-emphasis);
 }
 .cabecalho{
     padding: 2% 0% 0% 15%; 
@@ -34,29 +30,33 @@ body{
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-emphasis);
+    text-decoration: none;
 }
 .apresentacao{
     padding: 2% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 .apresentacao__conteudo{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 1.85rem;
+    font-size: 2.25rem;
     font-family: var(--font-frist);
 }
+.titulo-destaque{
+    color: var(--color-emphasis);
+}
 .apresentacao__conteudo__texto{
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-family: var(--font-secund);
 }
-
 .apresentacao__links{
     display: flex;
     flex-direction: column;
@@ -67,10 +67,10 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--font-frist);
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
-.apresentacao__links__navegacao{
-    /* background-color: #22D4FD; */
+.apresentacao__links__navegacao{ 
+
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -83,9 +83,9 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--color-text);
-    font-family: var(--font-secund);
+    font-family: var(--font-secund);    
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--color-hover);
 }
 .apresentacao__imagem{
@@ -99,4 +99,15 @@ body{
     font-family: var(--font-secund);
     font-size: 1.5rem;
     font-weight: 400;
+}
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 6%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
 }
