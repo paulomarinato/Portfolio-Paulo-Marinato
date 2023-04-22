@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --color-background: #000000;
-    --color-text: #f6f6f6;
-    --color-emphasis: #22D4FD;
-    --color-hover: #272722;
+    --color-background: #1A3C40;
+    --color-text: #EDE6DB;
+    --color-emphasis: #417D7A;
+    --color-hover: #1D5C63;
 
     --font-frist: 'Krona One', sans-serif;
     --font-secund: 'Montserrat', sans-serif;
@@ -31,7 +31,7 @@ body{
 }
 .cabecalho__menu__link{
     font-family: var(--font-secund);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-emphasis);
 }
@@ -42,18 +42,18 @@ body{
     justify-content: space-between;
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 30px;
+    font-size: 1.85rem;
     font-family: var(--font-frist);
 }
 .apresentacao__conteudo__texto{
-    font-size: 18px;
+    font-size: 1.15rem;
     font-family: var(--font-secund);
 }
 
@@ -67,18 +67,18 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--font-frist);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     /* background-color: #22D4FD; */
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--color-emphasis);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -88,12 +88,15 @@ body{
 .apresentacao__links__link:hover{
     background-color: var(--color-hover);
 }
+.apresentacao__imagem{
+    width: 50%;
+}
 .rodape{
     color: var(--color-background);
     background-color: var(--color-emphasis);
     padding: 24px;
     text-align: center;
     font-family: var(--font-secund);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
